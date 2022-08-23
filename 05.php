@@ -21,7 +21,6 @@ class Automovil extends Transporte {
         return "El transporte tiene: " . $this->ruedas . ", una capacidad de: " . $this->capacidad . " personas" . " y con transmisión: " . $this-> transmision;
     }
 }
-
     //$transporte = new Transporte(1,9);
     //echo $transporte -> getInfo();
 
@@ -29,7 +28,6 @@ echo "<hr>";
 $auto = new Automovil(4,5, "MANUAL");
 echo $auto -> getInfo();
 echo "<hr>";
-
 
 class Bicicleta extends Transporte {
 
